@@ -26,6 +26,18 @@ Your program will
 7. Support running commands in foreground and background processes
 8. Implement custom handlers for 2 signals, SIGINT and SIGTSTP
 
+**How to run the program**
+
+Compile wuchengy_proj3.c to create an executable file named smallsh
+
+Use the Makefile provided
+
+`gcc --std=gnu99 -g -Wall -o smallsh wuchengy_proj3.c`
+```
+$ make
+$ ./smallsh
+```
+
 **Program Functionality**
 
 1. The Command Prompt
